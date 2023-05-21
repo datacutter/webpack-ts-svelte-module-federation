@@ -1,0 +1,30 @@
+{
+  "name": "webpack-ts-svelte-module-federation",
+  "version": "1.0.0",
+  "workspaces": {
+    "packages": [
+      "app1",
+      "app2"
+    ]
+  },
+  "repository": "git@github.com/datacutter/webpack-ts-svelte-module-federation",
+  "author": "Ilia Ashirov (https://github.com/datacutter)",
+  "license": "MIT",
+  "keywords": [
+    "webpack",
+    "svelte",
+    "typescript",
+    "module",
+    "federation",
+    "lerna",
+    "sass",
+    "microfrontend"
+  ],
+  "scripts": {
+    "start": "lerna run --parallel start",
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^6.1.0"
+  }
+}
