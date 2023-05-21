@@ -3,7 +3,7 @@
 In the example, the second application is imported via dynamic import. And there is an example of connecting one header component from the second application when the button is clicked.
 When building, each application is placed in its own folder.
 
-![micro-frontend-app-screenshot](https://github.com/datacutter/webpack-ts-svelte-module-federation/.screenshots/micro-frontend-app-screenshot.png?raw=true)
+![micro-frontend-app-screenshot](https://raw.githubusercontent.com/datacutter/webpack-ts-svelte-module-federation/master/.screenshots/micro-frontend-app-screenshot.png)
 
 ## Getting Started
 ```
